@@ -5,13 +5,13 @@ and help censored users.
 
 ### instructions
 
-    git clone https://github.com/mrphs/pol
+    $ git clone https://github.com/mrphs/pol
     
 Edit Dockerfile to include your bridge name and contact info.
 
-    docker build -t torbridge /path/to/Dockerfile
+    $ docker build -t torbridge /path/to/Dockerfile
     
-    docker run -it torbridge
+    $ docker run -it torbridge
 
 That's it!
 
