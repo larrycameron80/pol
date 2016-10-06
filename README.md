@@ -20,3 +20,6 @@ If your (host) kernel doesn't have `CONFIG_AUFS_XATTR` set to `y`,
 you might have problems running your bridge on port 80. Pick a port higher than 1024.
 
 If you've a solution or workaround for this, pls send a PR.
+
+## Why port 80?
+Because it's unlikely to be blocked, even on the most fascist firewall.
